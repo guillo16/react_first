@@ -1,17 +1,27 @@
 import React, { Component } from 'react';
+import SearchBar from './search_bar.jsx';
+import Gif from './gif.jsx';
+import GifList from './gif_list.jsx';
+
 
 class App extends Component {
   render() {
-    return (
+    return(
       <div>
         <div className="left-scene">
-          <SearchBar />
+        <SearchBar />
+        <div className="selected-gif">
+          <Gif />
+        </div>
         </div>
         <div className="right-scene">
+          <div className="gif-list">
+            <GifList />
+          </div>
         </div>
       </div>
       )
   }
 }
 
-export default App;
+export default App
