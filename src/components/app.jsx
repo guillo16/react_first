@@ -23,8 +23,7 @@ class App extends Component {
     // Res contains gif data!
     this.setState({
       gifs: res.data
-    })
-
+      })
     });
 
   }
