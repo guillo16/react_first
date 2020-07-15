@@ -7,6 +7,7 @@ class GifList extends Component {
       <div>
         <Gif />
         <Gif />
+        <Gif />
       </div>
 
       )
