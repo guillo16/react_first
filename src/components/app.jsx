@@ -12,6 +12,10 @@ class App extends Component {
       selectedGifId: "26BRv0ThflsHCqDrG"
     }
   }
+
+  search = (query) => {
+
+  }
   render() {
 
     const gifs = [
