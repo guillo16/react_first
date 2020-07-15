@@ -4,6 +4,7 @@ class Gif extends Component {
   handleClick = () => {
     console.log(event.currentTarget)
   }
+
   render() {
     const src = `https://media.giphy.com/media/${this.props.id}/giphy.gif`
     return(
